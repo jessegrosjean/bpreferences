@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 44;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4302062C0C7E18290009C3D8 /* Blocks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4302062B0C7E18210009C3D8 /* Blocks.framework */; };
+		430206350C7E18ED0009C3D8 /* BPreferencesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 430206340C7E18ED0009C3D8 /* BPreferencesController.m */; };
+		433E6BF20C9867EF00348A2B /* BPreferencesController.h in Headers */ = {isa = PBXBuildFile; fileRef = 430206330C7E18ED0009C3D8 /* BPreferencesController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		882C34BF0DD34A8B00FD2D4D /* BPreferencesTextAttributesLayoutManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 882C34BD0DD34A8B00FD2D4D /* BPreferencesTextAttributesLayoutManager.h */; };
+		882C34C00DD34A8B00FD2D4D /* BPreferencesTextAttributesLayoutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 882C34BE0DD34A8B00FD2D4D /* BPreferencesTextAttributesLayoutManager.m */; };
+		8838F1230DD334A300DADC58 /* BPreferencesTextAttributesController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8838F1210DD334A300DADC58 /* BPreferencesTextAttributesController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8838F1240DD334A300DADC58 /* BPreferencesTextAttributesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8838F1220DD334A300DADC58 /* BPreferencesTextAttributesController.m */; };
+		8838F1290DD334EC00DADC58 /* BPreferencesTextAttributesTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8838F1270DD334EC00DADC58 /* BPreferencesTextAttributesTextView.m */; };
+		8838F12C0DD3354500DADC58 /* BPreferencesTextAttributesWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8838F12B0DD3354500DADC58 /* BPreferencesTextAttributesWindow.xib */; };
+		887D028C0DC0CD6C00722010 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 43F599350C90575A00D691C2 /* Localizable.strings */; };
+		8892A2D20D5CAB960033DD11 /* BPreferencesController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8892A2D00D5CAB960033DD11 /* BPreferencesController.xib */; };
+		8893062C0D5B73C1002725F2 /* com.blocks.BPreferences.markdown in Resources */ = {isa = PBXBuildFile; fileRef = 8893062B0D5B73C1002725F2 /* com.blocks.BPreferences.markdown */; };
+		889306300D5B73E4002725F2 /* com.blocks.BPreferences.preferencePanes.markdown in Resources */ = {isa = PBXBuildFile; fileRef = 8893062F0D5B73E4002725F2 /* com.blocks.BPreferences.preferencePanes.markdown */; };
+		88D4A03A0DC0CD0A00D6867F /* Plugin.xml in Resources */ = {isa = PBXBuildFile; fileRef = 4302062D0C7E18450009C3D8 /* Plugin.xml */; };
+		88D4A03C0DC0CD1F00D6867F /* PluginXml.strings in Resources */ = {isa = PBXBuildFile; fileRef = 43F59A3A0C90686800D691C2 /* PluginXml.strings */; };
+		8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
+		8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4302062A0C7E18210009C3D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 430206260C7E18210009C3D8 /* Blocks.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8DC2EF5B0486A6940098B216;
+			remoteInfo = Blocks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		089C1672FE841209C02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		089C167FFE841241C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		32DBCF630370AF2F00C91783 /* BPreferences_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPreferences_Prefix.pch; sourceTree = "<group>"; };
+		430206260C7E18210009C3D8 /* Blocks.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Blocks.xcodeproj; path = ../Blocks/Blocks.xcodeproj; sourceTree = SOURCE_ROOT; };
+		4302062D0C7E18450009C3D8 /* Plugin.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Plugin.xml; sourceTree = "<group>"; };
+		430206330C7E18ED0009C3D8 /* BPreferencesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPreferencesController.h; sourceTree = "<group>"; };
+		430206340C7E18ED0009C3D8 /* BPreferencesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPreferencesController.m; sourceTree = "<group>"; };
+		43F599330C90575100D691C2 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
+		43F59A380C90685E00D691C2 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/PluginXml.strings; sourceTree = "<group>"; };
+		882C34BD0DD34A8B00FD2D4D /* BPreferencesTextAttributesLayoutManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPreferencesTextAttributesLayoutManager.h; sourceTree = "<group>"; };
+		882C34BE0DD34A8B00FD2D4D /* BPreferencesTextAttributesLayoutManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPreferencesTextAttributesLayoutManager.m; sourceTree = "<group>"; };
+		8838F1210DD334A300DADC58 /* BPreferencesTextAttributesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPreferencesTextAttributesController.h; sourceTree = "<group>"; };
+		8838F1220DD334A300DADC58 /* BPreferencesTextAttributesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPreferencesTextAttributesController.m; sourceTree = "<group>"; };
+		8838F1260DD334EC00DADC58 /* BPreferencesTextAttributesTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPreferencesTextAttributesTextView.h; sourceTree = "<group>"; };
+		8838F1270DD334EC00DADC58 /* BPreferencesTextAttributesTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPreferencesTextAttributesTextView.m; sourceTree = "<group>"; };
+		8838F12B0DD3354500DADC58 /* BPreferencesTextAttributesWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BPreferencesTextAttributesWindow.xib; sourceTree = "<group>"; };
+		8892A2D10D5CAB960033DD11 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/BPreferencesController.xib; sourceTree = "<group>"; };
+		8893062B0D5B73C1002725F2 /* com.blocks.BPreferences.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = com.blocks.BPreferences.markdown; sourceTree = "<group>"; wrapsLines = 1; };
+		8893062F0D5B73E4002725F2 /* com.blocks.BPreferences.preferencePanes.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = com.blocks.BPreferences.preferencePanes.markdown; sourceTree = "<group>"; wrapsLines = 1; };
+		8D5B49B6048680CD000E48DA /* BPreferences.plugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BPreferences.plugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D5B49B7048680CD000E48DA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2F7E65807B2D6F200F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D5B49B3048680CD000E48DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4302062C0C7E18290009C3D8 /* Blocks.framework in Frameworks */,
+				8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* BPreferences */ = {
+			isa = PBXGroup;
+			children = (
+				430206260C7E18210009C3D8 /* Blocks.xcodeproj */,
+				08FB77AFFE84173DC02AAC07 /* Classes */,
+				32C88E010371C26100C91783 /* Other Sources */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				089C1671FE841209C02AAC07 /* Frameworks and Libraries */,
+				19C28FB8FE9D52D311CA2CBB /* Products */,
+			);
+			name = BPreferences;
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */,
+				1058C7AEFEA557BF11CA2CBB /* Other Frameworks */,
+			);
+			name = "Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D5B49B7048680CD000E48DA /* Info.plist */,
+				089C167DFE841241C02AAC07 /* InfoPlist.strings */,
+				4302062D0C7E18450009C3D8 /* Plugin.xml */,
+				8893062B0D5B73C1002725F2 /* com.blocks.BPreferences.markdown */,
+				8893062F0D5B73E4002725F2 /* com.blocks.BPreferences.preferencePanes.markdown */,
+				43F59A3A0C90686800D691C2 /* PluginXml.strings */,
+				43F599350C90575A00D691C2 /* Localizable.strings */,
+				8892A2D00D5CAB960033DD11 /* BPreferencesController.xib */,
+				8838F12B0DD3354500DADC58 /* BPreferencesTextAttributesWindow.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AFFE84173DC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				430206330C7E18ED0009C3D8 /* BPreferencesController.h */,
+				430206340C7E18ED0009C3D8 /* BPreferencesController.m */,
+				8838F1210DD334A300DADC58 /* BPreferencesTextAttributesController.h */,
+				8838F1220DD334A300DADC58 /* BPreferencesTextAttributesController.m */,
+				882C33E20DD3405E00FD2D4D /* Private */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7AEFEA557BF11CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				089C167FFE841241C02AAC07 /* AppKit.framework */,
+				D2F7E65807B2D6F200F64583 /* CoreData.framework */,
+				089C1672FE841209C02AAC07 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FB8FE9D52D311CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D5B49B6048680CD000E48DA /* BPreferences.plugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32C88E010371C26100C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32DBCF630370AF2F00C91783 /* BPreferences_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		430206270C7E18210009C3D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4302062B0C7E18210009C3D8 /* Blocks.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		882C33E20DD3405E00FD2D4D /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				8838F1260DD334EC00DADC58 /* BPreferencesTextAttributesTextView.h */,
+				8838F1270DD334EC00DADC58 /* BPreferencesTextAttributesTextView.m */,
+				882C34BD0DD34A8B00FD2D4D /* BPreferencesTextAttributesLayoutManager.h */,
+				882C34BE0DD34A8B00FD2D4D /* BPreferencesTextAttributesLayoutManager.m */,
+			);
+			name = Private;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		433E6BE70C9867E600348A2B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				433E6BF20C9867EF00348A2B /* BPreferencesController.h in Headers */,
+				8838F1230DD334A300DADC58 /* BPreferencesTextAttributesController.h in Headers */,
+				882C34BF0DD34A8B00FD2D4D /* BPreferencesTextAttributesLayoutManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8D5B49AC048680CD000E48DA /* BPreferences */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB913A08733D840010E9CD /* Build configuration list for PBXNativeTarget "BPreferences" */;
+			buildPhases = (
+				43F597D20C904ABE00D691C2 /* Run genstrings Script */,
+				433E6BE70C9867E600348A2B /* Headers */,
+				8D5B49AF048680CD000E48DA /* Resources */,
+				8D5B49B1048680CD000E48DA /* Sources */,
+				8D5B49B3048680CD000E48DA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BPreferences;
+			productInstallPath = "$(HOME)/Library/Bundles";
+			productName = BPreferences;
+			productReference = 8D5B49B6048680CD000E48DA /* BPreferences.plugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "BPreferences" */;
+			compatibilityVersion = "Xcode 3.0";
+			hasScannedForEncodings = 1;
+			mainGroup = 089C166AFE841209C02AAC07 /* BPreferences */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 430206270C7E18210009C3D8 /* Products */;
+					ProjectRef = 430206260C7E18210009C3D8 /* Blocks.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				8D5B49AC048680CD000E48DA /* BPreferences */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		4302062B0C7E18210009C3D8 /* Blocks.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Blocks.framework;
+			remoteRef = 4302062A0C7E18210009C3D8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D5B49AF048680CD000E48DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */,
+				88D4A03C0DC0CD1F00D6867F /* PluginXml.strings in Resources */,
+				887D028C0DC0CD6C00722010 /* Localizable.strings in Resources */,
+				8893062C0D5B73C1002725F2 /* com.blocks.BPreferences.markdown in Resources */,
+				889306300D5B73E4002725F2 /* com.blocks.BPreferences.preferencePanes.markdown in Resources */,
+				8892A2D20D5CAB960033DD11 /* BPreferencesController.xib in Resources */,
+				88D4A03A0DC0CD0A00D6867F /* Plugin.xml in Resources */,
+				8838F12C0DD3354500DADC58 /* BPreferencesTextAttributesWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		43F597D20C904ABE00D691C2 /* Run genstrings Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run genstrings Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ $CONFIGURATION != 'Release' ]; then\n\texit\nfi\n\ngenstrings -s BLocalizedString -o English.lproj/ *.[mch] */*.[mch]";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D5B49B1048680CD000E48DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				430206350C7E18ED0009C3D8 /* BPreferencesController.m in Sources */,
+				8838F1240DD334A300DADC58 /* BPreferencesTextAttributesController.m in Sources */,
+				8838F1290DD334EC00DADC58 /* BPreferencesTextAttributesTextView.m in Sources */,
+				882C34C00DD34A8B00FD2D4D /* BPreferencesTextAttributesLayoutManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C167DFE841241C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C167EFE841241C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		43F599350C90575A00D691C2 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43F599330C90575100D691C2 /* English */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		43F59A3A0C90686800D691C2 /* PluginXml.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43F59A380C90685E00D691C2 /* English */,
+			);
+			name = PluginXml.strings;
+			sourceTree = "<group>";
+		};
+		8892A2D00D5CAB960033DD11 /* BPreferencesController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8892A2D10D5CAB960033DD11 /* English */,
+			);
+			name = BPreferencesController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB913B08733D840010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = BPreferences_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				PRODUCT_NAME = BPreferences;
+				WRAPPER_EXTENSION = plugin;
+			};
+			name = Debug;
+		};
+		1DEB913C08733D840010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = BPreferences_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				PRODUCT_NAME = BPreferences;
+				WRAPPER_EXTENSION = plugin;
+			};
+			name = Release;
+		};
+		1DEB913F08733D840010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Debug;
+		};
+		1DEB914008733D840010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB913A08733D840010E9CD /* Build configuration list for PBXNativeTarget "BPreferences" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB913B08733D840010E9CD /* Debug */,
+				1DEB913C08733D840010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "BPreferences" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB913F08733D840010E9CD /* Debug */,
+				1DEB914008733D840010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}

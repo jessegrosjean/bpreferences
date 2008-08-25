@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin
+	id="com.blocks.BPreferences"
+	label="Preferences"
+	version="1.0.0"
+	info="Blocks Preferences">
+
+	<requirement bundle="com.blocks.Blocks" version="1.0.0" />
+	<requirement bundle="com.blocks.BUserInterface" version="1.0.0" />
+
+	<extension-point id="preferencePanes" label="Preference Panes" />
+	
+	<extension point="com.blocks.BUserInterface.menus" processOrder="1" >
+		<menu id="com.blocks.BUserInterface.menus.main.application">
+			<separator group="preferencesGroup" location="after:about"/>
+			<menuitem title="%Preferences..." id="preferences" action="showWindow:" keyEquivalent="," target="BPreferencesController sharedInstance" location="group:preferencesGroup" />
+		</menu>
+	</extension>
+	
+</plugin>

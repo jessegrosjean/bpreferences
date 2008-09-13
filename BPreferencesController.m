@@ -41,6 +41,7 @@
     toolbar = [[NSToolbar alloc] initWithIdentifier:@"BPreferenceManagerToolbarIdentifier"];    
     [toolbar setDelegate:self];
     [[self window] setToolbar:toolbar];
+	[[self window] setShowsToolbarButton:NO];
     [[self window] center];
 	[[self window] makeKeyAndOrderFront:self];
 	

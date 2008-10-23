@@ -38,10 +38,12 @@
 #pragma mark AwakeFromNib-like Methods
 
 - (void)windowDidLoad {
-    toolbar = [[NSToolbar alloc] initWithIdentifier:@"BPreferenceManagerToolbarIdentifier"];    
-    [toolbar setDelegate:self];
-    [[self window] setToolbar:toolbar];
-	[[self window] setShowsToolbarButton:NO];
+	if ([[self paneIdentifiers] count] > 1) {
+		toolbar = [[NSToolbar alloc] initWithIdentifier:@"BPreferenceManagerToolbarIdentifier"];    
+		[toolbar setDelegate:self];
+		[[self window] setToolbar:toolbar];
+		[[self window] setShowsToolbarButton:NO];
+	} 
     [[self window] center];
 	[[self window] makeKeyAndOrderFront:self];
 	
